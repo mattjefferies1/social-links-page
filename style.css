@@ -1,0 +1,109 @@
+:root {
+    --ff-sans:'Inter', sans-serif;
+
+    --fw-light: 400;
+    --fw-normal: 600;
+    --fw-bold: 700;
+
+    --clr-green: hsl(75, 94%, 57%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-grey: hsl(0, 0%, 20%);
+    --clr-dark-grey: hsl(0, 0%, 12%);
+    --clr-black: hsl(0, 0%, 8%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-normal);
+    color: var(--clr-white);
+    background-color:var(--clr-black);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    background-color: var(--clr-dark-grey);
+    border-radius: 1rem;
+    max-width: 385px;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 90px;
+    display: inline block;
+    border-radius: 10rem;
+}
+
+.container h1 {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    font-weight: var(--fw-light);
+    line-height: 1;
+    padding-top: 1.5rem;
+}
+
+.container h2 {
+    color: var(--clr-green);
+    font-size: .85rem;
+    font-weight: var(--fw-normal);
+    padding-top: .75rem;
+}
+
+.container p {
+    color: var(--clr-white);
+    font-size: 0.9rem;
+    font-weight: var(--fw-light);
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.container .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.container .social-links a {
+    color: var(--clr-white);
+    background-color: var(--clr-grey);
+    border: none;
+    border-radius: 7px;
+    margin: 7px;
+    padding: 15px 90px ;
+    width: 100%;
+    outline: none;
+    font-weight: var(--fw-bold);
+    font-size: 0.9rem;
+    text-decoration:none;
+}
+
+.container .social-links a:hover {
+    background-color: var(--clr-green);
+    color: var(--clr-dark-grey);
+}
+
+.author { 
+    font-size: 11px; text-align: center; 
+    margin-top: 2rem;
+}
+
+.author a { 
+    color: hsl(228, 45%, 44%); 
+}
