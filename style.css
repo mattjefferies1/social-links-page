@@ -46,7 +46,7 @@ img {
     border-radius: 10rem;
 }
 
-.container h1 {
+h1 {
     color: var(--clr-white);
     font-size: 1.5rem;
     font-weight: var(--fw-light);
@@ -54,14 +54,14 @@ img {
     padding-top: 1.5rem;
 }
 
-.container h2 {
+h2 {
     color: var(--clr-green);
     font-size: .85rem;
     font-weight: var(--fw-normal);
     padding-top: .75rem;
 }
 
-.container p {
+p {
     color: var(--clr-white);
     font-size: 0.9rem;
     font-weight: var(--fw-light);
@@ -69,7 +69,7 @@ img {
     padding-bottom: 0.5rem;
 }
 
-.container .social-links {
+.social-links {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@ img {
     text-decoration: none;
 }
 
-.container .social-links a {
+.social-links a {
     color: var(--clr-white);
     background-color: var(--clr-grey);
     border: none;
@@ -93,7 +93,7 @@ img {
     text-decoration:none;
 }
 
-.container .social-links a:hover {
+.social-links a:hover {
     background-color: var(--clr-green);
     color: var(--clr-dark-grey);
 }
