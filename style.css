@@ -97,6 +97,7 @@ img {
 .container .social-links a:hover {
     background-color: var(--clr-green);
     color: var(--clr-dark-grey);
+    cursor: pointer;
 }
 
 .author { 
