@@ -49,7 +49,7 @@ img {
 h1 {
     color: var(--clr-white);
     font-size: 1.5rem;
-    font-weight: var(--fw-700);
+    font-weight: var(--fw-bold);
     line-height: 1;
     padding-top: 1.5rem;
 }
